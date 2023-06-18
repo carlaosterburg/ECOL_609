@@ -1,0 +1,165 @@
+---
+title: "spider_code"
+author: "Carla"
+date: "2023-05-23"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE,
+                      fig.width = 9, fig.height = 5, dpi = 500,
+                      retina = 1, fig.showtext = TRUE, layout = "l-page")
+```
+
+```{r packages}
+
+# Load packages 
+
+rm(list=ls())
+library(tidyverse)
+library(sf)
+library(rnaturalearth)
+library(rmapshaper)
+library(scico)
+library(here)
+library(elevatr)
+library(mapview)
+
+# Set theme
+
+theme_set(theme_void(base_family = "TrebuchetMS", base_size = 11))
+theme_update(
+  legend.position = "top",
+  legend.spacing = unit(2, "lines"),
+  legend.title = element_text(face = "bold")
+)
+```
+
+
+# Data
+
+```{r data}
+## Import spider data 
+
+spiders <- read.csv("C:/Users/carla/Documents/Lincoln Uni/ECOL609/Spiders/spiders_ecol_609/spiders.csv", sep =",",dec=".")
+
+df_coords <- spiders
+
+# Create a smaller dataframe with 4 necessary columns
+
+df_spideys <- df_coords %>% dplyr::select('longitude','latitude', 'taxon_family_name', 'id')
+
+summary(df_spideys)
+
+# Create dataframe with only spatial data
+df_spidey_coords <- df_coords %>% dplyr::select('longitude','latitude')
+
+# Set projection
+
+spid_prj <- "EPSG:4326"
+
+# Extract elevation from lat and long data
+elevation <- get_elev_point(df_spidey_coords,prj= spid_prj, src = c("aws"))
+
+summary(elevation)
+
+# Get spatial data for maps
+
+sf_countries <- 
+  ne_download(scale = 50, returnclass = "sf") %>% 
+  st_transform(crs = "+proj=moll +R=10567000 +lon_0=0 +x_0=0 +y_0=0 +units=m +towgs84=0,0,0,0,0,0,0 +no_defs")
+
+sf_borders <- rmapshaper::ms_innerlines(sf_countries)
+
+sf_oceans <- 
+  ne_download(category = "physical", type = "ocean", scale = 50, returnclass = "sf") %>% 
+  st_transform(crs = st_crs(sf_countries))
+
+sf_graticules <- 
+  ne_download(category = "physical", type = "graticules_30", scale = 50, returnclass = "sf") %>% 
+  st_transform(crs = st_crs(sf_countries))
+
+spidey_coords <- 
+  df_spideys %>% 
+  st_as_sf(coords = c("longitude", "latitude"), crs = 4326) %>% 
+  st_transform(crs = st_crs(sf_countries))
+
+spidey_elevation <- spidey_coords %>%
+  left_join(elevation)
+
+# Turn Dataframe into a spatial points data frame (not needed)
+#spidey_final <- sf::as_Spatial(spidey_coords, cast = TRUE, IDs = paste0("id"))
+#summary(spidey_final)
+#mapview(spidey_final)
+
+# Transform elevation data to data frame  
+
+df_elev = as(elevation, "data.frame") 
+summary(df_elev)
+
+df_elev2 <- df_elev %>%
+  rename(longitude=coords.x1,latitude=coords.x2)
+
+ID <- c(1:87)
+
+df_elev2$ID <-ID
+
+df_spideys$ID <-ID
+
+# Merge both data frames 
+
+df_combined <- df_spideys %>%
+ left_join(df_elev2, by="ID") %>%
+  dplyr::select(-c(longitude.y, latitude.y,id)) %>%
+  rename(longitude=longitude.x, latitude=latitude.x) %>%
+  mutate(elevation=as.numeric(elevation)) 
+
+summary(df_combined)
+
+# Save dataframe as csv 
+
+write.csv(df_combined,"C:/Users/carla/Documents/Lincoln Uni/ECOL609/Spiders/spiders_ecol_609/combined.csv")
+
+# Look at data on map
+mapdata<- mapview(df_coords, xcol = "longitude", ycol = "latitude", crs = 4326, grid = FALSE, zcol="taxon_family_name", layer.name="Spider Family")
+
+mapdata
+
+df_combined2 <- df_combined %>% 
+  mutate_all(na_if,"") %>%
+  na.omit()
+  
+
+mapdata2<- mapview(df_combined2, xcol = "longitude", ycol = "latitude", crs = 4326, grid = FALSE, zcol="taxon_family_name", layer.name="Spider Family")
+
+mapdata2
+
+# Save map as html and png
+mapshot(mapdata2, url = paste0(getwd(), "/map.html"), selfcontained="TRUE")
+
+mapshot(mapdata2, url = paste0(getwd(), "/map.html"))
+
+mapshot(mapdata2, url = paste0(getwd(), "/map.html"),
+          file = paste0(getwd(), "/map.png"))
+
+# Linear models
+lm <- lm(elevation~taxon_family_name, data=df_combined)
+plot(lm)
+summary(lm)
+
+```
+
+```{r maps}
+
+
+## turn review locations into spatial objects
+sf_coords <- 
+  df_coords2 %>% 
+  st_as_sf(coords = c("longitude", "latitude"), crs = 4326) %>% 
+  st_transform(crs = st_crs(sf_countries))
+
+
+mapview(sf_coords, xcol = "longitude", ycol = "latitude", crs = 4326, grid = FALSE)
+
+```
+

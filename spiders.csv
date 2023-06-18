@@ -1,0 +1,95 @@
+id,observed_on_string,observed_on,latitude,longitude,positional_accuracy,species_guess,scientific_name,common_name,iconic_taxon_name,taxon_id,taxon_order_name,taxon_family_name
+2831600,2016-03-21,2016-03-21,-44.645941,169.344978,908,Jumping Spiders,Salticidae,Jumping Spiders,Arachnida,48139,Araneae,Salticidae
+2831694,2016-03-21,2016-03-21,-44.646918,169.34206,378,Cycloctenus,Cycloctenus,,Arachnida,376112,Araneae,Cycloctenidae
+6137815,2017-03-28,2017-03-28,-44.63788,169.356995,3224,Chink Jumping Spiders,Holoplatys,,Arachnida,368945,Araneae,Salticidae
+6137884,2017-03-28,2017-03-28,-44.63788,169.356995,3224,Araneomorphae,Uliodon,Vagrant Spiders,Arachnida,318992,Araneae,Zoropsidae
+10446779,2018/03/21 3:40 PM NZDT,2018-03-21,-44.6420021641,169.3757915497,257,Araneomorphae,Gnaphosidae,Ground Spiders,Arachnida,50168,Araneae,Gnaphosidae
+21313291,2019/03/15 12:44 PM NZDT,2019-03-15,-44.6423496774,169.3496993335,466,Spotted ground swift,Nyssus coloripes,Spotted Ground Swift Spider,Arachnida,466015,Araneae,Corinnidae
+21352783,2019/03/18 1:18 PM NZDT,2019-03-18,-44.6442428074,169.3464377698,510,Mygalomorphs,Mygalomorphae,Mygalomorphs,Arachnida,84719,Araneae,
+21411319,2019/03/15 2:57 PM NZDT,2019-03-15,-44.6421359455,169.3481114665,422,Holoplatys apressus,Holoplatys apressus,,Arachnida,861012,Araneae,Salticidae
+21414818,2019/03/15 2:58 PM NZDT,2019-03-15,-44.642410772,169.3484977114,408,Ground Spiders,Gnaphosidae,Ground Spiders,Arachnida,50168,Araneae,Gnaphosidae
+21433681,2019/03/16 10:50 AM NZDT,2019-03-16,-44.6477740451,169.338668931,370,Nurseryweb Spider,Dolomedes minor,Nurseryweb spider,Arachnida,407459,Araneae,Pisauridae
+21445219,2019/03/16 2:03 PM NZDT,2019-03-16,-44.6478409425,169.3376536689,591,Water Spider,Dolomedes aquaticus,Water Spider,Arachnida,388730,Araneae,Pisauridae
+21446967,2019/03/16 3:19 PM NZDT,2019-03-16,-44.6500381859,169.338112193,577,Water Spider,Dolomedes aquaticus,Water Spider,Arachnida,388730,Araneae,Pisauridae
+151681666,2023-03-20 11:07:23+13:00,2023-03-20,-44.63977,169.3309333333,11,"",Dolomedes minor,Nurseryweb spider,Arachnida,407459,Araneae,Pisauridae
+151691000,2023-03-20 11:10:16,2023-03-20,-44.651085,169.32473,2,Jumping Spiders,Salticidae,Jumping Spiders,Arachnida,48139,Araneae,Salticidae
+151695567,2023/03/20 11:51 AM,2023-03-20,-44.6516944444,169.3286138889,4,Water Spider,Dolomedes aquaticus,Water Spider,Arachnida,388730,Araneae,Pisauridae
+151696911,2023-03-20 11:01:01+13:00,2023-03-20,-44.6394466667,169.3312833333,8,Nurseryweb spider,Dolomedes minor,Nurseryweb spider,Arachnida,407459,Araneae,Pisauridae
+151697158,2023-03-20 11:26:13+13:00,2023-03-20,-44.6394166667,169.3313,4,Typical Spiders,Araneomorphae,Typical Spiders,Arachnida,120474,Araneae,
+151697217,2023-03-20 11:27:15+13:00,2023-03-20,-44.63942,169.3313,4,Araneoid Spiders,Araneoidea,Araneoid Spiders,Arachnida,319384,Araneae,
+151701026,2023-03-20 11:09:08+13:00,2023-03-20,-44.6398616667,169.3309033333,5,"",Dolomedes minor,Nurseryweb spider,Arachnida,407459,Araneae,Pisauridae
+151701148,2023-03-20 11:07:29+13:00,2023-03-20,-44.639555,169.330995,5,Nurseryweb spider,Dolomedes minor,Nurseryweb spider,Arachnida,407459,Araneae,Pisauridae
+151717050,2023-03-20 11:11:11+13:00,2023-03-20,-44.6406666667,169.33072,19,Nurseryweb spider,Dolomedes minor,Nurseryweb spider,Arachnida,407459,Araneae,Pisauridae
+151795039,2023-03-21 11:58:56+13:00,2023-03-21,-44.65175,169.3285533333,4,Water Spider,Dolomedes aquaticus,Water Spider,Arachnida,388730,Araneae,Pisauridae
+151795412,2023-03-20 11:17:07+13:00,2023-03-20,-44.6398416667,169.3312216667,4,"",Dolomedes,Fishing Spiders,Arachnida,82118,Araneae,Pisauridae
+151797303,2023-03-20 11:31:59+13:00,2023-03-20,-44.6397866667,169.33168,4,"",Dolomedes,Fishing Spiders,Arachnida,82118,Araneae,Pisauridae
+151799438,2023-03-21 11:39:57+13:00,2023-03-21,-44.65172,169.3285666667,4,Water Spider,Dolomedes aquaticus,Water Spider,Arachnida,388730,Araneae,Pisauridae
+151800822,2023-03-21 10:46:48+13:00,2023-03-21,-44.6511083333,169.32373,4,Vagrant Spiders,Uliodon,Vagrant Spiders,Arachnida,318992,Araneae,Zoropsidae
+151801318,2023-03-20 11:00:49,2023-03-20,-44.6513472222,169.3260277778,,Entelegyne Spiders,Entelegynae,Entelegyne Spiders,Arachnida,342614,Araneae,
+151805199,,,-44.6684232511,169.3411665782,9,Spiders,Araneae,Spiders,Arachnida,47118,Araneae,
+151808068,2023-03-21 11:35:39,2023-03-21,-44.66842,169.3413966667,4,Spiders,Araneae,Spiders,Arachnida,47118,Araneae,
+151999561,2023-03-21 11:43:00+13:00,2023-03-21,-44.6518333333,169.3285366667,13,Cycloctenus,Cycloctenus,,Arachnida,376112,Araneae,Cycloctenidae
+152079025,2023/03/20 12:01 PM,2023-03-20,-44.6512694889,169.3262285855,117,Nurseryweb spider,Dolomedes minor,Nurseryweb spider,Arachnida,407459,Araneae,Pisauridae
+152079042,2023/03/20 12:38 PM,2023-03-20,-44.6512694889,169.3262285855,117,Dolomedes minor,Dolomedes minor,Nurseryweb spider,Arachnida,407459,Araneae,Pisauridae
+152079525,2023/03/20 1:25 PM,2023-03-20,-44.6506524071,169.3222591203,24,Banded Tunnelweb Spiders,Hexathele,Banded Tunnelweb Spiders,Arachnida,376595,Araneae,Hexathelidae
+152079529,2023/03/20 1:38 PM,2023-03-20,-44.6506524071,169.3222591203,24,Banded Tunnelweb Spiders,Hexathele,Banded Tunnelweb Spiders,Arachnida,376595,Araneae,Hexathelidae
+152091700,2023/03/18 2:00 PM,2023-03-18,-44.6503279528,169.3228572734,15,Sidymella,Sidymella,Square-ended Crab Spiders,Arachnida,202191,Araneae,Thomisidae
+152094720,2023-03-21 12:02:48,2023-03-21,-44.6685361111,169.3404638889,,Spotted Ground Swift Spider,Nyssus coloripes,Spotted Ground Swift Spider,Arachnida,466015,Araneae,Corinnidae
+152097184,2023/03/21 11:20 AM,2023-03-21,-44.6650936897,169.335148812,34,Spotted Ground Swift Spider,Nyssus coloripes,Spotted Ground Swift Spider,Arachnida,466015,Araneae,Corinnidae
+152097186,2023/03/21 11:22 AM,2023-03-21,-44.6650936897,169.3348698623,66,Anoteropsis,Anoteropsis,,Arachnida,375534,Araneae,Lycosidae
+152097196,2023/03/21 12:37 PM,2023-03-21,-44.6688631069,169.3528943069,168,Clubiona,Clubiona,Leafcurling Sac Spiders,Arachnida,121774,Araneae,Clubionidae
+152097198,2023/03/21 12:37 PM,2023-03-21,-44.6688631069,169.3528943069,168,Spotted Ground Swift Spider,Nyssus coloripes,Spotted Ground Swift Spider,Arachnida,466015,Araneae,Corinnidae
+152098323,2023/03/21 3:48 PM,2023-03-21,-44.6690157107,169.3439631711,357,Backobourkia brouni,Backobourkia brouni,Broun's marbled orb-weaver,Arachnida,832215,Araneae,Araneidae
+152098335,2023/03/21 3:48 PM,2023-03-21,-44.6690157107,169.3439631711,357,Jumping Spiders,Salticidae,Jumping Spiders,Arachnida,48139,Araneae,Salticidae
+152098337,2023/03/19 3:48 PM,2023-03-19,-44.650645,169.322331,46,Banded Tunnelweb Spiders,Hexathele,Banded Tunnelweb Spiders,Arachnida,376595,Araneae,Hexathelidae
+152173244,2023/03/20 11:24 AM,2023-03-20,-44.6325722622,169.3291158864,31,Spiders,Araneae,Spiders,Arachnida,47118,Araneae,
+152175420,2023/03/20 12:33 PM,2023-03-20,-44.651969875,169.3294697283,31,Nursery Web Spiders,Pisauridae,Nursery Web Spiders,Arachnida,55788,Araneae,Pisauridae
+152175425,2023/03/20 1:16 PM,2023-03-20,-44.651969875,169.3294697283,31,Spiders,Araneae,Spiders,Arachnida,47118,Araneae,
+152305046,2023-03-20 10:59:15+13:00,2023-03-20,-44.651195,169.3258366667,10,"",Thomisidae,Crab Spiders,Arachnida,47866,Araneae,Thomisidae
+152305090,2023-03-20 11:00:59+13:00,2023-03-20,-44.65117,169.32608,17,"",Araneae,Spiders,Arachnida,47118,Araneae,
+152307395,2023-03-21 11:59:43+13:00,2023-03-21,-44.6686583333,169.3406533333,41,Spotted Ground Swift Spider,Nyssus coloripes,Spotted Ground Swift Spider,Arachnida,466015,Araneae,Corinnidae
+152310432,2023-03-21 15:11:13,2023-03-21,-44.6501003997,169.3198261997,,,Mygalomorphae,Mygalomorphs,Arachnida,84719,Araneae,
+152543817,2023/03/21 12:52 PM,2023-03-21,-44.6691415074,169.3440049097,122,Ground Spiders,Gnaphosidae,Ground Spiders,Arachnida,50168,Araneae,Gnaphosidae
+152543820,2023/03/21 12:52 PM,2023-03-21,-44.6691415074,169.3440049097,122,Spiders,Araneae,Spiders,Arachnida,47118,Araneae,
+152591624,2023/03/21 11:40 AM,2023-03-21,-44.6518833333,169.3285055556,10,Water Spider,Dolomedes aquaticus,Water Spider,Arachnida,388730,Araneae,Pisauridae
+152597934,2023/03/21 11:14 AM,2023-03-21,-44.6649979722,169.3335399722,,Spotted Ground Swift Spider,Nyssus coloripes,Spotted Ground Swift Spider,Arachnida,466015,Araneae,Corinnidae
+152597940,2023/03/21 11:24 AM,2023-03-21,-44.6646939722,169.3324029722,,Nurseryweb spider,Dolomedes minor,Nurseryweb spider,Arachnida,407459,Araneae,Pisauridae
+152597956,2023/03/21 11:50 AM,2023-03-21,-44.6682059722,169.3398229722,,Flattened Bark Spider,Hemicloea rogenhoferi,Flattened Bark Spider,Arachnida,390373,Araneae,Trochanteriidae
+152819482,2023-03-20 13:42:30+13:00,2023-03-20,-44.6510583305,169.3214716667,20,Avicularioidea,Avicularioidea,,Arachnida,1467321,Araneae,
+152819908,2023-03-20 12:20:32+13:00,2023-03-20,-44.65125,169.326125,4,Entelegyne Spiders,Entelegynae,Entelegyne Spiders,Arachnida,342614,Araneae,
+152820348,2023-03-20 11:42:32+13:00,2023-03-20,-44.6511216667,169.3247533333,4,Leafcurling Sac Spiders,Clubiona,Leafcurling Sac Spiders,Arachnida,121774,Araneae,Clubionidae
+152820593,2023-03-20 11:37:43+13:00,2023-03-20,-44.6511783333,169.3247383333,4,Wolf Spiders and Allies,Lycosoidea,Wolf Spiders and Allies,Arachnida,367161,Araneae,
+152821140,2023-03-20 11:17:00+13:00,2023-03-20,-44.6511833333,169.3244783333,4,Ground Spiders,Gnaphosidae,Ground Spiders,Arachnida,50168,Araneae,Gnaphosidae
+152821240,2023-03-20 10:59:08+13:00,2023-03-20,-44.65125,169.32367,4,Entelegyne Spiders,Entelegynae,Entelegyne Spiders,Arachnida,342614,Araneae,
+152822336,2023-03-21 13:39:49+13:00,2023-03-21,-44.6676616667,169.3526,4,Flower Spiders,Diaea,Flower Spiders,Arachnida,199493,Araneae,Thomisidae
+152824146,2023-03-21 12:39:39+13:00,2023-03-21,-44.668945,169.3437366667,5,Ground Spiders,Gnaphosidae,Ground Spiders,Arachnida,50168,Araneae,Gnaphosidae
+152824253,2023-03-21 12:33:10+13:00,2023-03-21,-44.669005,169.3433216667,4,Ground Spiders,Gnaphosidae,Ground Spiders,Arachnida,50168,Araneae,Gnaphosidae
+152824382,2023-03-21 12:29:12+13:00,2023-03-21,-44.6689833333,169.3432166667,4,Anoteropsis,Anoteropsis,,Arachnida,375534,Araneae,Lycosidae
+152824666,2023-03-21 11:43:26+13:00,2023-03-21,-44.6509059618,169.3244285857,744,Spotted Ground Swift Spider,Nyssus coloripes,Spotted Ground Swift Spider,Arachnida,466015,Araneae,Corinnidae
+152824843,2023-03-21 11:36:08+13:00,2023-03-21,-44.6683716667,169.3404383333,4,Spotted Ground Swift Spider,Nyssus coloripes,Spotted Ground Swift Spider,Arachnida,466015,Araneae,Corinnidae
+152825109,2023-03-21 11:28:52+13:00,2023-03-21,-44.6682883333,169.339905,4,Ground Spiders,Gnaphosidae,Ground Spiders,Arachnida,50168,Araneae,Gnaphosidae
+152825227,2023-03-21 11:17:30+13:00,2023-03-21,-44.6682966667,169.339875,4,Steatoda lepida,Steatoda lepida,,Arachnida,408048,Araneae,Theridiidae
+152886814,2023/03/20 12:11 PM,2023-03-20,-44.6398784,169.347776,,Anoteropsis,Anoteropsis,,Arachnida,375534,Araneae,Lycosidae
+153142893,2023-03-21 11:45:28+13:00,2023-03-21,-44.6518583333,169.328445,16,Cycloctenus,Cycloctenus,,Arachnida,376112,Araneae,Cycloctenidae
+153443429,2023-04-04 11:26:34+12:00,2023-04-04,-44.6646604643,169.346120763,1213,Vagrant Spiders,Uliodon,Vagrant Spiders,Arachnida,318992,Araneae,Zoropsidae
+153803163,2023-03-20 00:57:00+13:00,2023-03-20,-44.621923753,169.3431746242,244,Flower Spiders,Diaea,Flower Spiders,Arachnida,199493,Araneae,Thomisidae
+153803164,2023/03/20 12:57 AM,2023-03-20,-44.621923753,169.3431746242,244,Entelegyne Spiders,Entelegynae,Entelegyne Spiders,Arachnida,342614,Araneae,
+153803165,2023/03/20 12:57 AM,2023-03-20,-44.621923753,169.3431746242,244,Flower Spiders,Diaea,Flower Spiders,Arachnida,199493,Araneae,Thomisidae
+153803166,2023/03/20 12:57 AM,2023-03-20,-44.621923753,169.3431746242,244,Entelegyne Spiders,Entelegynae,Entelegyne Spiders,Arachnida,342614,Araneae,
+153803167,2023-03-20 00:57:00+13:00,2023-03-20,-44.621923753,169.3431746242,244,Orbweavers,Araneidae,Orbweavers,Arachnida,47535,Araneae,Araneidae
+153803168,2023/03/20 12:57 AM,2023-03-20,-44.621923753,169.3431746242,244,Entelegyne Spiders,Entelegynae,Entelegyne Spiders,Arachnida,342614,Araneae,
+153803170,2023/03/20 12:57 AM,2023-03-20,-44.621923753,169.3431746242,244,Flower Spiders,Diaea,Flower Spiders,Arachnida,199493,Araneae,Thomisidae
+153803179,2023-03-20 00:57:00+13:00,2023-03-20,-44.621923753,169.3431746242,244,Flower Spiders,Diaea,Flower Spiders,Arachnida,199493,Araneae,Thomisidae
+153803180,2023-03-20 00:57:00+13:00,2023-03-20,-44.621923753,169.3431746242,244,Flower Spiders,Diaea,Flower Spiders,Arachnida,199493,Araneae,Thomisidae
+153803183,2023-03-20 00:57:00+13:00,2023-03-20,-44.621923753,169.3431746242,244,Flower Spiders,Diaea,Flower Spiders,Arachnida,199493,Araneae,Thomisidae
+153803195,2023/03/20 12:57 AM,2023-03-20,-44.621923753,169.3431746242,244,Flower Spiders,Diaea,Flower Spiders,Arachnida,199493,Araneae,Thomisidae
+153803220,2023/03/20 12:57 AM,2023-03-20,-44.621923753,169.3431746242,244,Cobweb Spiders,Theridiidae,Cobweb Spiders,Arachnida,47371,Araneae,Theridiidae
+153803233,2023/03/20 12:57 AM,2023-03-20,-44.621923753,169.3431746242,244,Entelegyne Spiders,Entelegynae,Entelegyne Spiders,Arachnida,342614,Araneae,
+153803235,2023/03/20 12:57 AM,2023-03-20,-44.621923753,169.3431746242,244,Spiders,Araneae,Spiders,Arachnida,47118,Araneae,
+153803264,2023/03/20 12:57 AM,2023-03-20,-44.621923753,169.3431746242,244,Cobweb Spiders,Theridiidae,Cobweb Spiders,Arachnida,47371,Araneae,Theridiidae
+153803269,2023/03/20 12:57 AM,2023-03-20,-44.621923753,169.3431746242,244,Entelegyne Spiders,Entelegynae,Entelegyne Spiders,Arachnida,342614,Araneae,
+153803270,2023/03/20 12:57 AM,2023-03-20,-44.621923753,169.3431746242,244,Theridiidae,Theridiidae,Cobweb Spiders,Arachnida,47371,Araneae,Theridiidae
+153803276,2023/03/20 12:57 AM,2023-03-20,-44.621923753,169.3431746242,244,Cobweb Spiders,Theridiidae,Cobweb Spiders,Arachnida,47371,Araneae,Theridiidae
+153803278,2023/03/20 12:57 AM,2023-03-20,-44.621923753,169.3431746242,244,White Banded House Jumper,Maratus griseus,White Banded House Jumper,Arachnida,831320,Araneae,Salticidae
+153803284,2023-03-20 00:57:00+13:00,2023-03-20,-44.621923753,169.3431746242,244,White Banded House Jumper,Maratus griseus,White Banded House Jumper,Arachnida,831320,Araneae,Salticidae
+156374950,2023-04-24 17:23:29+12:00,2023-04-24,-44.4977112,169.38068855,16911,Typical Spiders,Araneomorphae,Typical Spiders,Arachnida,120474,Araneae,
